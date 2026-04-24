@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv PLAN.md /tmp/PLAN.md)",
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --no-src-dir --import-alias \"@/*\" --yes)",
+      "Bash(mv /tmp/PLAN.md ./PLAN.md)",
+      "Bash(npm install *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
